@@ -9,8 +9,6 @@ on:
     branches:
       - master
       - feature/*
-      - epic/*
-      - fix/*
   pull_request:
     branches:
       - master
