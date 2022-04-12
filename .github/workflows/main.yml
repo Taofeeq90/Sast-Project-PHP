@@ -42,4 +42,4 @@ jobs:
       uses: actions/upload-artifact@v1.0.0
       with:
         name: shiftleft-scan-reports
-        path: /tree/master/.github/ISSUE_TEMPLATE
+        path: ISSUE_TEMPLATE
