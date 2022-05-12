@@ -23,5 +23,6 @@ jobs:
           -Dsonar.projectKey=Sast-Sql-Test
           -Dsonar.organization=taofeeq90
       env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: deea987503f1041700decc91fa75560689af9222
         SONAR_HOST_URL: https://sonarcloud.io/
