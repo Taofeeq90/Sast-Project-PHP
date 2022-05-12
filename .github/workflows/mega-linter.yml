@@ -54,3 +54,9 @@ jobs:
           path: |
             report
             mega-linter.log
+            
+      - name: Upload scan reports
+        uses: actions/upload-artifact@v1.0.0
+        with:
+          name: mega-scan-reports
+          path: reports
