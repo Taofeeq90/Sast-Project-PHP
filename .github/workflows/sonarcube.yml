@@ -18,6 +18,10 @@ jobs:
         fetch-depth: 0
     - name: SonarQube Scan
       uses: sonarsource/sonarqube-scan-action@master
+      with:
+        args: >
+          -Dsonar.projectKey=Taofeeq90_Sast-Project-PHP
+          -Dsonar.organization=taofeeq90
       env:
         SONAR_TOKEN: deea987503f1041700decc91fa75560689af9222
         SONAR_HOST_URL: https://sonarcloud.io/
